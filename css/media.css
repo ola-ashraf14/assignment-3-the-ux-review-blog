@@ -1,0 +1,119 @@
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media  screen and (min-width: 600px) {
+    
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media  screen and (min-width: 768px) {
+     #latest-artticles .fresh-content {
+        display: block;
+     }
+     .item-footer-left{
+        width: 100%;
+     }
+     #footer .footer-wraper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+       align-items: flex-start;
+        gap:30px;
+        
+     }
+  
+     #footer .item-footer-center{
+        width: 20%;
+     }
+     #footer .item-footer-right{
+        width: 20%;
+        flex-grow: 1;
+        
+     }
+
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media  screen and (min-width: 992px) {
+    .container{
+        width: 95%;
+    }
+    /* header and navbar */
+    .navbar ul{
+        display: flex;
+        gap: 20px;
+    }
+    .navbar .btn{
+        display: block;
+
+    }
+    .navbar .bars-icon{
+        display: none;
+    }
+    .main-header,
+    .header-image{
+    width:calc((100% / 2) - 30px ) ;
+    }
+    .header-image{
+            transform:rotate(2deg);
+
+    }
+    .header-section .main-header .btn2:after{
+        display: block;
+    }
+    /* latest-artticles */
+      #latest-artticles .main-articles{
+        width:calc(70% - 30px);
+    }
+    #latest-artticles .articles-sidebar{
+        width: 30%;
+    }
+    #latest-artticles .card-article{
+        display: flex;
+        justify-content: space-between;
+            
+    }
+    #latest-artticles .card-article .info-card-article{
+        padding-inline: 30px;
+            
+    }
+    .tech,.design,.culture{
+        margin: 0;
+    }
+   
+
+ 
+    /* author section */
+    #author .author-item{
+        width: calc((100% / 3) - 20px);
+       
+    }
+
+    .community-item{
+        width: calc((100% / 2) - 30px);
+       
+    }
+
+     #footer .item{
+            width: calc((80% / 2) - 30px);
+        }
+     #footer .item-footer-center{
+            width: 20%;
+        }
+        .lg-flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    /*  */
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media  screen and (min-width: 1200px) {
+
+}

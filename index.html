@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the-ux-review-blog</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+
+    
+
+       
+            <!-- navbar======================================= -->
+            <div class="navbar d-flex justify-between align-center fixed top-20 right-20 left-20 z-999 radius-20 bg-white border">
+               <h1 class="logo">
+                <a href="https://the-ux-review-blog.vercel.app/" class="text-black decoration-none"> 
+                    The UX <span>Review</span>
+                </a>
+               </h1>
+               <ul class="nav-links list-none uppercase d-none fs-14 fw-600">
+                <li>
+                    <a href="#" class="text-black decoration-none">home </a> 
+                    
+                </li>
+                <li><i class="fa-solid fa-star fa-star-navbar"></i></li>
+                <li>
+                    <a href="#latest-artticles" class="text-black decoration-none">latest articles</a>
+                    
+                </li>
+                <li><i class="fa-solid fa-star fa-star-navbar"></i></li>
+                <li>
+                    <a href="#author" class="text-black decoration-none">authors </a>
+                    
+                </li>
+                <li><i class="fa-solid fa-star fa-star-navbar"></i></li>
+                <li>
+                    <a href="#community" class="text-black decoration-none">community</a>
+                </li>
+               </ul>
+
+               <!-- bars-icon display in screen max width 992px ====== -->
+               <div class="bars-icon ">
+                <label for="bars"><i class="fa-solid fa-bars"></i></label>
+               
+               <input type="checkbox" id="bars" class="d-none">
+               </div>
+
+               <!-- <div class="links-phone">
+                <ul >
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">home</a></li>
+                </ul>
+               </div> -->
+
+               <!-- button subscripe -->
+               <button class="btn py-10 px-20 radius-20 pointer fs-14 fw-bold uppercase border d-none">subscripe now</button>
+            </div>
+
+
+
+
+
+            <!-- header section======================== -->
+
+            <div class="header-section border">
+                <div class="container">
+                    <div class="header-wrapper  d-flex justify-between align-center d-wrap g-30">
+                     
+                    <div class="main-header  ">
+                        
+
+                        <div class="trend-header py-10 px-20 fs-14 fw-bold fit-content  box-shadow-3 bg-black text-white uppercase relative">
+
+                           <!-- <i class="fa-solid fa-fire"></i> -->
+                          🔥 trending now
+                        </div>
+                        <h2 class="py-20 fw-bolder">
+                            BRUTAL <br>
+                            <span class="text-red text-shadow">THOUGHTS</span> <br>
+                            <span class="text-blue text-shadow ">BOLD IDEAS</span>
+                        </h2>
+                        <p class="fs-24 p-20 border bg-white box-shadow-3">
+                            Raw, unfiltered content about tech, design, and culture. No sugar-coating, just pure truth that hits different.
+                        </p>
+                        <div class="buttons d-flex">
+                            <button class=" btn1 pointer bg-black text-white border-4 my-30 fs-20 box-shadow-6 fw-bold p-20 uppercase m-right-20 duration-300 ">
+                            <i class="fa-solid fa-rocket"></i>
+                            start reading</button>
+                        <button class="btn2 pointer uppercase border-4 my-30 fs-20 box-shadow-6 fw-bold p-20 text-black bg-white duration-300">
+                            <i class="fa-solid fa-play text-black"></i>
+                            watch intro </button>
+                        </div>
+
+
+
+                    </div>
+                    <div class="header-image w-100  relative text-center my-30">
+                       
+                        <img class="  box-shadow-6" src="assets/hero-img.png" alt="hero img">
+                        
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+
+            <!-- section LATEST ARTICLES -->
+
+
+            <div id="latest-artticles" class="py-40 bg-section">
+                <div class="container">
+                    <!-- d-flex justify-between align-center d-wrap -->
+                   
+                        <div class="wraper-articles  d-flex d-wrap g-30  my-30">
+                            <div class="main-articles w-100">
+                               <div class="d-flex justify-between align-center">
+                                 <h3 class="uppercase">
+                                    latest articles
+                                </h3>
+                                <div class="fresh-content py-10 px-20 fs-14 fw-bold fit-content  box-shadow-3 bg-black text-white uppercase w-10 d-none">
+                                🔥 fresh content
+                                </div>
+                               </div >
+                                <div class="card-article   bg-white  bg-gray mt-20 p-30 box-shadow-6 mb-10 border-4" >
+                                    <div class="article-image w-30 relative">
+                                        <img src="./assets/user-engagement-2.jpg" alt="" class="w-100 border" height="60%">
+                                        <div class=" badge-new uppercase fs-12 border text-white  absolute p-10 fw-bold  bg-red fit-content">new</div>
+                                    </div>
+                                    <div class="info-card-article  bg-white w-80 line-height">
+                                        <div class="tech uppercase fw-bold fs-12 border box-shadow-3 fit-content my-10">Tech</div>
+                                        <h4 class="fs-26 mt-10 ">Why Your Website Needs More Edge</h4>
+                                        <p class="fs-18 fw-400 py-10">Exploring the psychological impact of bold, unapologetic design choices on user engagement and brand perception in the digital age.</p>
+                                        <div class="d-flex justify-between align-center d-wrap my-10">
+                                            <div class="fs-14   ">
+                                                <i class="fa-solid fa-user"></i>
+                                                <span>BY ALEX BRUTAL</span>
+                                            </div>
+                                            <div class="fs-14  ">
+                                                <i class="fa-solid fa-calendar"></i>
+                                                <span>
+                                                    JAN 8, 2025
+                                                </span>
+                                            </div>
+                                            <div class="fs-14  ">
+                                                <i class="fa-solid fa-clock"></i>
+                                                <span>5 MIN READ</span>
+                                            </div>
+                                            <div class="fs-14  ">
+                                                <i class="fa-solid fa-heart text-red"></i>
+                                                <span class="text-red">127</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="card-article  bg-white typography  bg-gray mt-20 p-30 box-shadow-6 mb-10 border-4" >
+                                    <div class="article-image w-30 relative">
+                                        <img src="./assets/guide-to-typography.avif" alt="" class="w-100 border" height="60%">
+                                        <div class=" badge-hot uppercase fs-12 border text-white  absolute p-10 fw-bold  fit-content">hot</div>
+                                    </div>
+                                    <div class="info-card-article  bg-white w-80 line-height">
+                                        <div class="design uppercase fw-bold fs-12 border box-shadow-3 fit-content my-10">design</div>
+                                        <h4 class="fs-26 mt-10 ">Typography That Screams</h4>
+                                        <p class="fs-18 fw-400 py-10">How to choose and implement bold typography that commands attention without sacrificing readability or user experience.</p>
+                                        <div class="d-flex justify-between align-center">
+                                            <div class="fs-14 list-none d-flex g-5 ">
+                                                <i class="fa-solid fa-user"></i>
+                                                <span>BY Arnold Reeve</span>
+                                            </div>
+                                            <div class="fs-14 list-none d-flex g-5">
+                                                <i class="fa-solid fa-calendar"></i>
+                                                <span>JAN 6, 2025</span>
+                                            </div>
+                                            <div class="fs-14 list-none d-flex g-5">
+                                                <i class="fa-solid fa-clock"></i>
+                                               <span> 7 MIN READ</span>
+                                            </div>
+                                            <div class="fs-14 list-none d-flex g-5">
+                                                <i class="fa-solid fa-heart text-red"></i>
+                                                <span class="text-red">89</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="card-article   bg-white anti-instagram  bg-gray mt-20 p-30 box-shadow-6 mb-10 border-4" >
+                                    <div class="article-image w-30 relative">
+                                        <img src="./assets/anti-instagram.jpg" alt="" class="w-100 border" height="60%">
+                                        <div class="badge-viral uppercase fs-12 border text-white  absolute p-10  bg-red fit-content">viral</div>
+                                    </div>
+                                    <div class="info-card-article w-80 line-height">
+                                        <div class="culture uppercase fw-bold fs-12 border box-shadow-3 fit-content my-10">CULTURE</div>
+                                        <h4 class="fs-26 mt-10 ">The Anti-Instagram Movement</h4>
+                                        <p class="fs-18 fw-400 py-10">Young creators are abandoning polished feeds for raw, authentic content that celebrates imperfection and real human connection.</p>
+                                        <div class="d-flex justify-between align-center">
+                                            <div class="fs-14 list-none d-flex g-5 ">
+                                                <i class="fa-solid fa-user"></i>
+                                               <span> BY MIKE EDGE</span>
+                                            </div>
+                                            <div class="fs-14 list-none d-flex g-5">
+                                                <i class="fa-solid fa-calendar"></i>
+                                                <span>JAN 4, 2025</span>
+                                            </div>
+                                            <div class="fs-14 list-none d-flex g-5">
+                                                <i class="fa-solid fa-clock"></i>
+                                                <span>4 MIN READ</span>
+                                            </div>
+                                            <div class="fs-14 list-none d-flex g-5">
+                                                <i class="fa-solid fa-heart text-red"></i>
+                                                <span class="text-red">203 </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="d-flex p-30 align-center justify-center">
+                                    <button class="btn-category pointer border-4  fs-20 box-shadow-6 fw-bold p-20 bg-black text-white duration-300">
+                                    <i class="fa-sharp fa-solid fa-plus"></i>
+                                    LOAD MORE ARTICLES
+                                </button>
+                                </div>
+
+
+
+
+                             </div>
+
+                            <div class="articles-sidebar w-100  sticky top-0 align-self-start ">
+                                <div class="trending-wrapper ">
+                                    <div class="trending-box mb-30 border-4 box-shadow-6 p-30  bg-white">
+                                    <h4 class="uppercase fs-26 mb-20 fw-bold ">trending now</h4>
+                                    <div class="d-flex g-20 line-height mb-30">
+                                        <span class="text-trending-box-red fs-32 fw-bold">01</span>
+                                        <div class="">
+                                            <h6 class="fs-18 pointer trendbox1">The Death of Minimalism</h6>
+                                        <p class="fs-14 text-gray">12.5K reads • 🔥 Trending</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex g-20 line-height mb-30">
+                                        <span class="text-trending-box-blue fs-32 fw-bold">02</span>
+                                        <div class="">
+                                            <h6 class="fs-18 pointer trendbox2">Chaos as a Design System</h6>
+                                        <p class="fs-14 text-gray">8.2K reads • ⚡ Rising</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex g-20 line-height ">
+                                        <span class="text-trending-box-purple fs-32 fw-bold">03</span>
+                                        <div class="">
+                                            <h6 class="fs-18 pointer  trendbox3 ">Digital Rebellion</h6>
+                                        <p class="fs-14 text-gray">6.7K reads • 💥 Hot</p>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            <div class="categories-box border-4 box-shadow-6 p-30 bg-white">
+
+                                <h5 class="uppercase fw-bold fs-26 mb-30">categories</h5>
+                                <p class="border category-tech fs-14 fw-bold mb-20">TECH (24)</p>
+                                <p class="border category-design fs-14 fw-bold mb-20">DESIGN (18)</p>
+                                <p class="border category-culture fs-14 fw-bold mb-20">CULTURE (15)</p>
+                                <p class="border category-option fs-14 fw-bold mb-20">OPINION (12)</p>
+                                <p class="border category-tutorials fs-14 fw-bold mb-20">TUTORIALS (9)</p>
+
+
+                            </div>
+                            </div>
+                           
+
+                        </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <!-- section  authors -->
+            <div id="author" class="section-author relative border py-40">
+                <div class="container">
+                    <div class="author text-center  ">
+                        <div class="section-title">
+                            <h3 class="author-title uppercase ">
+                            meet the authors
+                        </h3>
+                        <p class="text-gray fs-20">The rebels behind the brutal truth</p>
+                        <div class="min-border"></div>
+                        </div>
+
+                    
+                        <div class="author-wrapper d-flex d-wrap justify-between align-center g-20 ">
+                            
+                            <div class="author-item   item1  text-center border-4 relative ">
+                                <div class="badge uppercase absolute">founder</div>
+
+                                <img class="border-4 w-40" src="./assets/avatar-1.jpg" alt="">
+                                <h4 >ALEX BRUTAL</h4>
+                                <p class="text-gray fw-bold ">Tech Critic & Design Rebel</p>
+                                <p class="py-20  line-height fw-400">Destroying conventional wisdom one article at a time. 10+ years fighting the good fight against boring design and corporate BS.</p>
+
+                                <ul class="item-icons list-none d-flex align-center justify-center g-20 ">
+                                    <li class="text-center bg-black text-white border pointer twitter">
+                                        <a href="#"> <i class="fa-brands fa-twitter text-white " target="_blank"></i></a>
+                                    </li>
+                                    <li class="text-center bg-black text-white border pointer llinkedin">
+                                        <a href="https://www.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin-in text-white "></i></a>
+                                    </li>
+                                    <li class="text-center bg-black text-white border pointer instagram"><a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram  text-white "></i></a></li>
+
+                                </ul>
+
+
+                            </div>
+                            <div class="author-item  item2  text-center border-4 relative ">
+                                <div class="badge uppercase absolute">Lead</div>
+
+                                <img class="border-4 w-40" src="./assets/avatar-2.jpg" alt="">
+                                <h4 >Arnold Reeve</h4>
+                                <p class="text-gray fw-bold">UX Anarchist & Visual Provocateur</p>
+                                <p class="py-20  line-height fw-400">Challenging design norms and creating chaos that actually works. Former corporate designer turned rebel with a cause.</p>
+
+                                  <ul class="item-icons list-none d-flex align-center justify-center g-20 ">
+                                    <li class="text-center bg-black text-white border pointer twitter">
+                                        <a href="#"> <i class="fa-brands fa-twitter text-white " target="_blank"></i></a>
+                                    </li>
+                                    <li class="text-center bg-black text-white border pointer llinkedin">
+                                        <a href="https://www.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin-in text-white "></i></a>
+                                    </li>
+                                    <li class="text-center bg-black text-white border pointer instagram"><a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram  text-white "></i></a></li>
+
+                                </ul>
+
+                                
+
+
+
+
+
+
+                            </div>
+                            <div class="author-item  item3  text-center border-4 relative ">
+                                <div class="badge uppercase absolute">Viral</div>
+
+                                <img class="border-4 w-40" src="./assets/avatar-3.jpg" alt="">
+                                <h4 >MIKE EDGE</h4>
+                                <p class="text-gray fw-bold">Cultural Critic & Trend Destroyer</p>
+                                <p class="py-20  line-height fw-400">Dissecting digital culture and exposing the truth behind viral trends. No filter, just facts that cut through the noise.</p>
+
+                               <ul class="item-icons list-none d-flex align-center justify-center g-20 ">
+                                    <li class="text-center bg-black text-white border pointer twitter">
+                                        <a href="#"> <i class="fa-brands fa-twitter text-white " target="_blank"></i></a>
+                                    </li>
+                                    <li class="text-center bg-black text-white border pointer llinkedin">
+                                        <a href="https://www.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin-in text-white "></i></a>
+                                    </li>
+                                    <li class="text-center bg-black text-white border pointer instagram"><a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram  text-white "></i></a></li>
+
+                                </ul>
+
+                                
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <!-- section community=============== -->
+             <div id="community" class="py-40 bg-section border">
+                <div class="container">
+                    
+                    <div class="community-title section-title text-center">
+                        <h3 class="community-title">JOIN THE REBELLION</h3>
+                        <p>Where rebels gather to change the digital world</p>
+                        <div class="min-border"></div>
+                    </div>
+
+                    <div class="community-wrapper d-flex d-wrap justify-between align-center g-30  ">
+                     
+                        <div class="community-item-left community-item">
+                           <h4 class="py-20 fw-bold fs-32">BECOME PART OF SOMETHING BIGGER</h4>
+                        <p class="p-20 fs-20 border line-height box-shadow-3 bg-white">Join thousands of designers, developers, and digital rebels who are tired of the same old boring content. Our community is where raw ideas meet bold execution and real change happens.</p>
+
+                   
+                            <ul  class=" py-20 community-list list-none d-flex align-center g-20 d-flex align-center g-20">
+                                <li class="text-center border bg-red"><i class="fs-18 fa-solid fa-check text-white "></i></li>
+
+                               <span class="fs-18 ">Weekly brutal insights newsletter with exclusive content</span>
+
+                            </ul>
+                            <ul  class=" py-20 community-list list-none d-flex align-center g-20">
+                                <li class="text-center border bg-blue"><i class="fs-18 fa-brands fa-discord text-white "></i></li>
+
+                               <span class="fs-18 ">Exclusive community Discord access for real-time <br> discussions</span>
+
+                            </ul>
+                            <ul  class=" py-20 community-list list-none d-flex align-center g-20">
+                                <li class="text-center border bg-purple"><i class="fs-18 fa-solid fa-star text-white "></i></li>
+
+                               <span class="fs-18 ">Early access to new articles before they go public</span>
+
+                            </ul>
+                            <ul  class=" py-20 community-list list-none d-flex align-center g-20">
+                                <li class="text-center border bg-green"><i class="fs-18 fa-solid fa-pencil text-white "></i></li>
+
+                               <span class="fs-18 ">Submit your own brutal takes and get featured</span>
+
+                            </ul>
+
+                            <button class="btn-rocket pointer border-4 my-30 fs-20 box-shadow-6 fw-bold p-20 bg-black text-white uppercase duration-300
+                            " >
+                                <i class="fa-solid fa-rocket"></i>
+                                Jion Now - it's free
+
+                            </button>
+
+                        </div>
+                        <div class="community-item-right community-item border-4  bg-white box-shadow-6">
+                            <h5 class="mb-40 fw-bold fs-32">WHAT REBELS ARE SAYING</h5>
+
+                            <div class="community-card border p-20 bg-pink-card-community mb-20 mb-40">
+                                <p class="fs-18  ">"Finally, a blog that tells it like it is. No corporate BS, just pure truth about what's really happening in tech. This is the wake-up call our industry needed."</p>
+                                <div class="d-flex justify-between align-center mt-20  ">
+                                    <div class="image-card w-10">
+                                        <img class="w-100 border " src="./assets/avatar-4.avif" alt="">
+                                    </div>
+                                    <div class="caption w-88">
+                                        <h6 class="fs-18 line-height">Mark T.</h6>
+                                    <span class="text-gray fs-14 fw-400">Senior Designer at Meta</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="community-card border p-20  bg-blue-card-community mb-40">
+                                <p class="fs-18  ">"The UX Review changed how I think about design. It's raw, honest, and exactly what our industry needs. Every article challenges my assumptions."</p>
+                                <div class="d-flex justify-between align-center mt-20  ">
+                                    <div class="image-card w-10">
+                                        <img class="w-100 border " src="./assets/avatar-5.jpg" alt="">
+                                    </div>
+                                    <div class="caption w-88">
+                                        <h6 class="fs-18 line-height">ALEX M.</h6>
+                                    <span class="text-gray fs-14 fw-400">Lead Developer at Stripe</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="community-card border p-20 bg-purple-card-community ">
+                                <p class="fs-18  ">"The most authentic voice in digital culture. Every article challenges my assumptions and makes me think differently about the work I do."</p>
+                                <div class="d-flex justify-between align-center mt-20  ">
+                                    <div class="image-card w-10">
+                                        <img class="w-100 border " src="./assets/avatar-6.avif" alt="">
+                                    </div>
+                                    <div class="caption w-88">
+                                        <h6 class="fs-18 line-height">James K</h6>
+                                    <span class="text-gray fs-14 fw-400">Creative Director at Adobe</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                     </div>
+                    
+                </div>
+             </div>
+
+
+             <!-- section footer -->
+
+
+             <footer id="footer" class="bg-black text-white py-30 fw-bold">
+                <div class="container">
+                  <div class="footer-wraper py-20">
+
+                      <div class="item-footer-left item my-30">
+
+                        <ul class="item-footer  d-flex align-center list-none d-flex align-center g-20"><li class="bg-white  p-20 "><i class="fa-solid fa-pen-nib fs-22 text-black"></i></li>
+                        <h6 class="fs-24">THE UX REVIEW</h6 >
+                       
+                    </ul>
+                     <p class="py-20 line-height fs-18 fw-400">Raw, unfiltered thoughts on tech, design, and digital culture. No compromise, no corporate speak, just brutal truth that matters.</p>
+                    </div>
+                    <div class="item item-footer-center w-100 fs-20 my-30">
+                        <h6  class="fs-24  mb-10">
+                            CATEGORIES
+                        </h6>
+                        <ul class="list-none uppercase">
+                            <li class=" py-8">
+                                <a class=" decoration-none text-white pointer fw-600 fs-14 " href="#">tech</a>
+                            </li>
+                            <li class=" py-8">
+                                <a class="decoration-none text-white pointer fw-600 fs-14" href="#">design</a>
+                            </li>
+                            <li class=" py-8">
+                                <a class="decoration-none text-white pointer fw-600 fs-14" href="#">culture</a>
+                            </li>
+                            <li class=" py-8">
+                                <a class="decoration-none text-white pointer fw-600 fs-14" href="#">option</a>
+                            </li>
+                            <li class=" py-8">
+                                <a class="decoration-none text-white pointer fw-600 fs-14" href="#">tutorials</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="item item-footer-right w-100 my-30">
+                        <h6 class="fs-24">NEWSLETTER</h6>
+                        <p class="fs-18 fw-400 py-20">Get brutal insights delivered weekly. No spam, just truth that cuts through the noise.</p>
+                        <input class=" w-100" type="email" name="Uemail" id="Uemail" placeholder="your email address">
+                        <button class="fs-18 w-100 fw-400 py-20 mt-20 uppercase  text-black fw-bold pointer duration-300">Subscripe</button>
+                    </div>
+
+                  </div>
+                  <div class="py-20 text-center w-100 lg-flex">
+                    <p class="">© 2025 The UX Review. ALL RIGHTS RESERVED. STAY BRUTAL.</p>
+                    <ul class="list-none d-flex justify-center py-10">
+                        <li><a class="text-white pointer fs-14 p-20 decoration-none" href="#">PRIVACY POLICY</a></li>
+                        <li><a class="text-white pointer fs-14 p-20 decoration-none" href="#">TERMS OF USE</a></li>
+                        <li><a class="text-white pointer fs-14 p-20 decoration-none" href="#">COOKIE POLICY</a></li>
+                    </ul>
+                  </div>
+                  
+                    
+                </div>
+
+             </footer>
+           
+       
+
+
+    
+</body>
+</html>
